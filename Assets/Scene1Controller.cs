@@ -5,6 +5,7 @@ public class Scene1Controller : MonoBehaviour
 {
     void Update()
     {
+        // Return to main menu when ball is clicked
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
