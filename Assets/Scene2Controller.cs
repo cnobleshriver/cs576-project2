@@ -12,6 +12,9 @@ public class Scene2Controller : MonoBehaviour
     private float roomWidth = 4.75f;
     private float roomHeight = 4.75f;
     public float squashFactor = 0.5f;
+
+    public Camera activeCamera;
+
     void Start()
     {
         newPosition = transform.position;
@@ -19,9 +22,11 @@ public class Scene2Controller : MonoBehaviour
 
     void Update()
     {
+        if (activeCamera == null) return;
+
         // Get mouse position
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        Plane plane = new Plane(Vector3.forward , Vector3.zero);
+        Ray ray = activeCamera.ScreenPointToRay(Input.mousePosition);
+        Plane plane = new Plane(Vector3.forward, Vector3.zero);
         if (plane.Raycast(ray, out float distance))
         {
             newPosition = ray.GetPoint(distance);

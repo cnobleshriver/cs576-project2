@@ -233,7 +233,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 1.5
-        value: {x: 0.8, y: 1.2, z: 0.8}
+        value: {x: 0.8, y: 1.2, z: 1.2}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -243,8 +243,8 @@ AnimationClip:
       - serializedVersion: 3
         time: 1.85
         value: {x: 1.1, y: 0.9, z: 1.1}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: -0.4000001}
+        outSlope: {x: 0, y: 0, z: -0.4000001}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -260,16 +260,16 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 2.4166667
-        value: {x: 1, y: 1, z: 1}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
+        value: {x: 1.1851853, y: 1, z: 1}
+        inSlope: {x: 0.33333313, y: 0, z: 0}
+        outSlope: {x: 0.33333313, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 2.5
-        value: {x: 1, y: 0.8, z: 1.2}
+        value: {x: 1.2, y: 0.8, z: 1.2}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -965,7 +965,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 2.5
-        value: 1
+        value: 1.2
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1223,7 +1223,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1.5
-        value: 0.8
+        value: 1.2
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1233,8 +1233,8 @@ AnimationClip:
       - serializedVersion: 3
         time: 1.85
         value: 1.1
-        inSlope: 0
-        outSlope: 0
+        inSlope: -0.4000001
+        outSlope: -0.4000001
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
